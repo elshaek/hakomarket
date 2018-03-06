@@ -1,8 +1,8 @@
-<h2>Metode pembayaran:</h2>
+<h1 class="mt-4 mb-4">Metode pembayaran:</h1>
 
 <div>
-  <h3>ATM BCA</h3>
-    <ol id="atm-bca">
+  <h3 id="atm-bca" class="p-2 border border-info rounded text-light bg-info" style="cursor: pointer">ATM BCA &#x25BC;</h3>
+    <ol id="atm-bca-instructions" class="pb-4">
       <li>Masukkan Kartu ATM dan nomor PIN Anda</li>
       <li>Masuk ke menu TRANSAKSI LAINNYA > TRANSFER > KE REK BCA VIRTUAL ACCOUNT</li>
       <li>Masukkan 16 digit nomor Virtual Account Anda (<%= @va_acc_no %>) lalu tekan BENAR</li>
@@ -10,8 +10,8 @@
       <li>Cek ulang detail transaksi, lalu tekan YA untuk konfirmasi transaksi</li>
       <li>Transaksi selesai</li>
     </ol>
-  <h3>KlikBCA Individual</h3>
-    <ol id="klikbca">
+  <h3 id="klikbca" class="p-2 border border-info rounded text-light bg-info" style="cursor: pointer">KlikBCA Individual &#x25BC;</h3>
+    <ol id="klikbca-instructions" class="pb-4" style="display:none">
       <li>Buka website KlikBCA Individual, lalu log in</li>
       <li>Pilih TRANSFER DANA > TRANSFER KE BCA VIRTUAL ACCOUNT</li>
       <li>Masukkan 16 digit nomor Virtual Account Anda (<%= @va_acc_no %>) dan tekan LANJUTKAN</li>
@@ -20,8 +20,8 @@
       <li>Masukkan RESPON KEYBCA APPLI 1, lalu klik tombol KIRIM</li>
       <li>Transaksi selesai</li>
     </ol>
-  <h3>Mobile BCA</h3>
-    <ol id="m-bca">
+  <h3 id="m-bca" class="p-2 border border-info rounded text-light bg-info" style="cursor: pointer">Mobile BCA &#x25BC;</h3>
+    <ol id="m-bca-instructions" class="pb-4" style="display:none">
       <li>Buka aplikasi BCA mobile</li>
       <li>Pilih menu m-BCA</li>
       <li>Pilih menu m-Transfer > BCA Virtual Account</li>
